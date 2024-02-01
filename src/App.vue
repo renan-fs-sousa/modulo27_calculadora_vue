@@ -30,7 +30,7 @@ const calculaResultado = () => {
   <div class="container text-center bg-light rounded py-5">
     <Cabecalho />
     <Formulario :operacao = "acao"/>
-    <Resultado :resultado = "calculaResultado()" />
+    <Resultado :resultado = "calculaResultado().toFixed(2)" />
   </div>
 </template>
 
